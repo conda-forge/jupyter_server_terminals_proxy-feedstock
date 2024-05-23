@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: jupyter_server_terminals_proxy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jupyter-server-terminals-proxy/jupyter_server_terminals_proxy-{{ version }}.tar.gz
-  sha256: 71edd36463880318d4b6707e5deab1052e900532f4d203667f2cff6c29e33a5a
+  sha256: e21f9f703d15c7932ba0b5e10d470d1b5bfa5d8e3de482c8b1c90b62b3765b20
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
